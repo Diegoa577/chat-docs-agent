@@ -4,7 +4,7 @@ import pytest
 from fastapi import HTTPException
 
 from app.api.schemas.providers import LLMModelInfo, LLMProviderInfo, LLMProvidersResponse
-from app.core.config import Settings
+from app.core.config import Settings, settings
 from app.core.dependencies import resolve_llm_provider
 
 
@@ -97,6 +97,10 @@ class TestResolveLLMProvider:
         assert exc_info.value.status_code == 400
         assert "unknown-model" in exc_info.value.detail
 
+    @pytest.mark.skipif(
+        not settings.is_llm_configured,
+        reason="Builds the real default LLM provider; requires a configured API key",
+    )
     def test_resolve_without_provider_or_model_uses_global_dependency(self):
         provider = resolve_llm_provider()
         assert provider is not None
