@@ -1,0 +1,50 @@
+[
+  {
+    "question": "What are the inclusion criteria for the study?",
+    "expected_chunk_ids": [],
+    "expected_answer_contains": ["adult patients", "18 to 65 years", "informed consent"],
+    "category": "factual"
+  },
+  {
+    "question": "How long do investigators have to report serious adverse events to the sponsor?",
+    "expected_chunk_ids": [],
+    "expected_answer_contains": ["24 hours"],
+    "category": "factual"
+  },
+  {
+    "question": "What is the primary objective of protocol PF-2024-001?",
+    "expected_chunk_ids": [],
+    "expected_answer_contains": ["ACR20", "Week 12"],
+    "category": "factual"
+  },
+  {
+    "question": "Which patients are excluded from the study?",
+    "expected_chunk_ids": [],
+    "expected_answer_contains": ["JAK inhibitor", "malignancy", "pregnancy"],
+    "category": "factual"
+  },
+  {
+    "question": "Compare the adverse event reporting windows between protocol PF-2024-001 and PF-2024-002.",
+    "expected_chunk_ids": [],
+    "expected_answer_contains": ["24 hours", "compare"],
+    "category": "compare"
+  },
+  {
+    "question": "Extract the sponsor, indication, and primary endpoint from the protocol.",
+    "expected_chunk_ids": [],
+    "expected_answer_contains": ["sponsor", "rheumatoid arthritis", "ACR20"],
+    "category": "extract"
+  },
+  {
+    "question": "Summarize the safety monitoring section of the protocol.",
+    "expected_chunk_ids": [],
+    "expected_answer_contains": ["adverse events", "sponsor"],
+    "category": "summarize"
+  },
+  {
+    "question": "What is the study population?",
+    "expected_chunk_ids": [],
+    "expected_answer_contains": ["rheumatoid arthritis", "adult patients"],
+    "category": "factual"
+  }
+]

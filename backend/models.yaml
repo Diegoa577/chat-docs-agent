@@ -1,0 +1,51 @@
+# LLM model catalog
+#
+# Models listed here are loaded at startup and replace the previous
+# provider-specific *_MODEL environment variables.
+#
+# Required fields per entry:
+#   provider: openai | gemini
+#   model_id: the exact model string passed to the provider API
+#
+# Optional fields:
+#   display_name: human-readable label
+#   default_temperature: default sampling temperature
+#   default_top_p: default nucleus sampling value
+#   supports_json_mode: whether the model supports a json_object response format
+#   requires_temperature_one: force temperature=1.0 for the provider
+#   supports_temperature: set to false for models that reject the
+#                         `temperature` parameter entirely
+#   extra_params: additional provider-specific kwargs
+
+models:
+  - provider: openai
+    model_id: gpt-5.4-mini
+    display_name: GPT-5.4 mini
+    default_temperature: 0.3
+    supports_json_mode: true
+    requires_temperature_one: true
+
+  - provider: openai
+    model_id: gpt-5.4
+    display_name: GPT-5.4
+    default_temperature: 0.3
+    supports_json_mode: true
+    requires_temperature_one: true
+
+  - provider: gemini
+    model_id: gemini-3.5-flash
+    display_name: Gemini 3.5 Flash
+    default_temperature: 0.3
+    supports_json_mode: false
+
+  - provider: gemini
+    model_id: gemini-3-flash-preview
+    display_name: Gemini 3.0 Flash
+    default_temperature: 0.3
+    supports_json_mode: false
+
+  - provider: gemini
+    model_id: gemini-2.5-flash
+    display_name: Gemini 2.5 Flash
+    default_temperature: 0.3
+    supports_json_mode: false

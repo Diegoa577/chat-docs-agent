@@ -1,0 +1,17 @@
+# Pre-commit hooks for the backend. Install with: pre-commit install
+repos:
+  - repo: https://github.com/astral-sh/ruff-pre-commit
+    rev: v0.15.21
+    hooks:
+      - id: ruff
+      - id: ruff-format
+
+  # Run mypy from the local environment so project dependencies resolve.
+  - repo: local
+    hooks:
+      - id: mypy
+        name: mypy
+        entry: mypy app
+        language: system
+        pass_filenames: false
+        types: [python]

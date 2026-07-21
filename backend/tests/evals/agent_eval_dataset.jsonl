@@ -1,0 +1,8 @@
+{"question": "What are the inclusion criteria?", "expected_intent": "search"}
+{"question": "Compare the safety profiles of protocol A and protocol B.", "expected_intent": "compare"}
+{"question": "Extract the primary endpoint, sponsor, and adverse event reporting window.", "expected_intent": "extract"}
+{"question": "Summarize the efficacy section of the protocol.", "expected_intent": "summarize"}
+{"question": "What is the primary objective and study phase?", "expected_intent": "search"}
+{"question": "Compare inclusion and exclusion criteria across the two documents.", "expected_intent": "compare"}
+{"question": "List all investigators and sites mentioned.", "expected_intent": "extract"}
+{"question": "Give me a brief summary of the protocol.", "expected_intent": "summarize"}

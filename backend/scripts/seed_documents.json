@@ -1,0 +1,40 @@
+{
+  "documents": [
+    {
+      "filename": "ICH_E6_R2_GCP.pdf",
+      "url": "https://database.ich.org/sites/default/files/E6_R2_Addendum.pdf",
+      "content_type": "application/pdf",
+      "description": "ICH E6(R2) Good Clinical Practice"
+    },
+    {
+      "filename": "ICH_E8_R1_General_Considerations.pdf",
+      "url": "https://database.ich.org/sites/default/files/E8-R1_Guideline_Step4_2021_1006.pdf",
+      "content_type": "application/pdf",
+      "description": "ICH E8(R1) General Considerations for Clinical Studies"
+    },
+    {
+      "filename": "ICH_E9_Statistical_Principles.pdf",
+      "url": "https://database.ich.org/sites/default/files/E9_Guideline.pdf",
+      "content_type": "application/pdf",
+      "description": "ICH E9 Statistical Principles for Clinical Trials"
+    },
+    {
+      "filename": "ICH_E9_R1_Estimands.pdf",
+      "url": "https://database.ich.org/sites/default/files/E9-R1_Step4_Guideline_2019_1203.pdf",
+      "content_type": "application/pdf",
+      "description": "ICH E9(R1) Estimands and Sensitivity Analysis"
+    },
+    {
+      "filename": "FDA_Informed_Consent_Guidance.pdf",
+      "url": "https://www.fda.gov/media/88915/download",
+      "content_type": "application/pdf",
+      "description": "FDA Guidance for IRBs, Clinical Investigators, and Sponsors: Informed Consent"
+    },
+    {
+      "filename": "NCT04084769_meningococcal_protocol.pdf",
+      "url": "https://cdn.clinicaltrials.gov/large-docs/69/NCT04084769/Prot_000.pdf",
+      "content_type": "application/pdf",
+      "description": "ClinicalTrials.gov protocol NCT04084769 (Sanofi quadrivalent meningococcal vaccine study)"
+    }
+  ]
+}
